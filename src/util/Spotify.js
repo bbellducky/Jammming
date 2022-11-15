@@ -1,6 +1,10 @@
 const clientId = '78789591486d41e38b11f9d667659357';
-const redirect_uri = 'http://thdxbe.surge.sh';
-// const redirect_uri = 'http://localhost:3000';
+// const redirect_uri = 'http://thdxbe.surge.sh/';
+// const redirect_uri = 'http://localhost:3000/';
+// const redirect_uri = 'http://jammming-thedxbe.pages.dev/';
+const redirect_uri = 'http://jammming-1.vercel.app/';
+
+
 let accessToken;
 const Spotify = {
     getAccessToken() {
